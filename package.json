@@ -1,0 +1,23 @@
+{
+  "name": "final_drilling_m6_vanesabrionesibacache",
+  "version": "1.0.0",
+  "description": "Examen final del modulo 6 Edutecno",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon ./server.js"
+  },
+  "author": "Vanesa Briones Ibacache",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+}
